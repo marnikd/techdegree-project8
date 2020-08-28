@@ -1,0 +1,6 @@
+if(errors)
+  h2.errors Failed to complete form!
+  ul.errors
+    each error in errors
+      li
+        =error.message
